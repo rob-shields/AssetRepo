@@ -22,7 +22,7 @@ spec:
         ports:
         - containerPort: 5555
       imagePullSecrets:
-        - name: acctest
+        - name: dockercreds
 ---
 kind: Service
 apiVersion: v1	
